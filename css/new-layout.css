@@ -1,0 +1,78 @@
+/*  LAYOUT  */
+
+html, 
+body {
+  
+  min-width: var(--base-width);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::before,
+.clearfix::after {
+
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+
+  clear:both;
+}
+
+
+.page-header {
+  
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+.logo--header, 
+.navigation--main, 
+.user-tools {
+  
+  float: left;
+  
+}
+
+.user-tools {
+  
+  width: 70px;
+  margin: 0 var(--space);
+  padding-top: 15px;
+  
+}
+
+.user-tools .cart {
+  
+  float: left;
+  
+}
+
+.user-tools .search {
+  
+  float: right;
+  
+}
+
+.promo {
+  
+  min-height: 768px;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url("../img/section-one.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  color: var(--txt-color-invert);
+  
+}

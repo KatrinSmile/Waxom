@@ -22,7 +22,9 @@
 .logo__img {
   
   width: 181px;
-  height: auto;
+  height: 56px;
+  overflow: hidden;
+  fill: #ffffff;
   
 }
 
@@ -31,5 +33,11 @@
   width: 270px;
   margin-left: var(--space);
   margin-right: var(--space);
+  
+}
+
+.logo__link:hover .logo__img {
+  
+  fill: var(--txt-color-active);
   
 }
